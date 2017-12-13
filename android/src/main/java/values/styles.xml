@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textSize">6sp</item>
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:textColor">#ffa11a</item>
+    </style>
+</resources>
