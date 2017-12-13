@@ -52,7 +52,7 @@ public class ActionSheetModule extends ReactContextBaseJavaModule {
     }
 
     ArrayAdapter<String> adapter = new ArrayAdapter<String>(currentActivity,
-            android.R.layout.select_dialog_item, titles);
+            android.R.layout.simple_selectable_list_item, titles);
     AlertDialog.Builder builder = new AlertDialog.Builder(currentActivity);
     if (options.hasKey("title") && options.getString("title") != null && !options.getString("title").isEmpty()) {
       builder.setTitle(options.getString("title"));
