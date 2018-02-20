@@ -14,9 +14,9 @@ iOS | Android
 
 ## Install
 
-`npm install https://github.com/amanoooooooooooooooo/react-native-action-sheet --save`
+`yarn add https://github.com/clemMoine/react-native-action-sheet`
 
-`react-native link react-native-action-sheet-native`
+`rnpm link react-native-action-sheet`
 
 ## if react native < 0.47
 

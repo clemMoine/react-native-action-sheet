@@ -1,5 +1,5 @@
 {
-  "name": "react-native-action-sheet-native",
+  "name": "react-native-action-sheet",
   "description": "React native action sheet with native android",
   "version": "0.0.4",
   "main": "index.js",
