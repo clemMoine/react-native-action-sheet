@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <!-- Font -->
         <!--<item name="android:typeface">monospace</item>-->
-        <item name="android:textSize">6sp</item>
-        <!--背景颜色及和透明程度-->
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <!--是否去除边框-->
+        <item name="android:textSize">14sp</item>
+        <!-- Background Color -->
+        <item name="android:background">@android:color/background_light</item>
+        <!-- Border Color -->
         <item name="android:windowFrame">@null</item>
-        <item name="android:textColor">#ffa11a</item>
+        <!-- Text Color -->
+        <item name="android:textColor">@android:color/primary_text_light</item>
     </style>
 </resources>
